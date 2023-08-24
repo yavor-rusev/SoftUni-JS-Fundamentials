@@ -1,0 +1,7 @@
+function metersToKilometers(meters) {
+    let kilometers = Number(meters / 1000);
+    console.log(kilometers.toFixed(2));
+
+}
+
+metersToKilometers(798);
