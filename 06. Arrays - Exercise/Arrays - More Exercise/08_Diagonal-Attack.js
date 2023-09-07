@@ -2,11 +2,10 @@ function diagonalAttack(square) {
     let squareLength = square.length;
 
     let squareAsTwoDimentionalArray = [];
-    let currentSquareIndex;
-
+    
     for (let index = 0; index < squareLength; index++) {
-        currentSquareIndex = square[index].split(" ");
-        squareAsTwoDimentionalArray.push(currentSquareIndex);
+        let currentSquareIndexAsArray = square[index].split(" ");
+        squareAsTwoDimentionalArray.push(currentSquareIndexAsArray);
 
     }
 
